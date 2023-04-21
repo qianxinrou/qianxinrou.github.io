@@ -1119,8 +1119,8 @@ function createtime1() {
   var dnum = Math.floor(days);
 
   var ascll = [
-    `欢迎来到Fomalhaut🥝の小家!`,
-    `Future is now 🍭🍭🍭`,
+    `欢迎来到浅雨灵🌦の指挥中心!`,
+    `This is my showtime 🍭🍭🍭`,
     `
         
 ███████  ██████  ███    ███  █████  ██      ██   ██  █████  ██    ██ ████████ 
@@ -1130,7 +1130,7 @@ function createtime1() {
 ██       ██████  ██      ██ ██   ██ ███████ ██   ██ ██   ██  ██████     ██   
                                               
 `,
-    "小站已经苟活",
+    "网站已经运行了",
     dnum,
     "天啦!",
     "©2022 By Fomalhaut",
@@ -1172,7 +1172,7 @@ function createtime2() {
   setTimeout(
     console.warn.bind(
       console,
-      "%c ⚡ Powered by Fomalhaut🥝 %c 你正在访问Fomalhaut🥝の小家",
+      "%c ⚡ Powered by 浅雨灵🌦 %c 你正在访问浅雨灵🌦の指挥中心!",
       "color:white; background-color:#f0ad4e",
       ""
     )
@@ -2785,11 +2785,11 @@ var now = new Date();
 function createtime() {
   // 当前时间
   now.setTime(now.getTime() + 1000);
-  var start = new Date("08/01/2022 00:00:00"); // 旅行者1号开始计算的时间
+  var start = new Date("21/04/2023 16:30:00"); // 旅行者1号开始计算的时间
   var dis = Math.trunc(23400000000 + ((now - start) / 1000) * 17); // 距离=秒数*速度 记住转换毫秒
   var unit = (dis / 149600000).toFixed(6);  // 天文单位
   // 网站诞生时间
-  var grt = new Date("08/09/2022 00:00:00");
+  var grt = new Date("21/04/2023 16:30:00");
   var days = (now - grt) / 1e3 / 60 / 60 / 24,
     dnum = Math.floor(days),
     hours = (now - grt) / 1e3 / 60 / 60 - 24 * dnum,
@@ -3174,10 +3174,10 @@ if (localStorage.getItem("blogbg") != undefined) {
   setBg(localStorage.getItem("blogbg"));
 } else {
   document.getElementById("defineBg").innerText = `:root{
-    --default-bg: url(https://s1.ax1x.com/2023/04/21/p9EwT3j.jpg);
-    --darkmode-bg: url(https://s1.ax1x.com/2023/04/21/p9EwT3j.jpg);
-    --mobileday-bg: url(https://s1.ax1x.com/2023/04/21/p9EwT3j.jpg);
-    --mobilenight-bg: url(https://s1.ax1x.com/2023/04/21/p9EwT3j.jpg);
+    --default-bg: url(https://s1.vika.cn/space/2023/04/21/e42ebc380cfd43dfb1b3bf65efdffaed);
+    --darkmode-bg: url(https://s1.vika.cn/space/2023/04/21/e42ebc380cfd43dfb1b3bf65efdffaed);
+    --mobileday-bg: url(https://s1.vika.cn/space/2023/04/21/e42ebc380cfd43dfb1b3bf65efdffaed);
+    --mobilenight-bg: url(https://s1.vika.cn/space/2023/04/21/e42ebc380cfd43dfb1b3bf65efdffaed);
   }`;
 }
 // 切换背景主函数
@@ -3407,7 +3407,7 @@ function createWinbox() {
 <h3>1. 二次元</h3>
 <details class="folding-tag" cyan><summary> 查看二次元背景 </summary>
               <div class='content'>
-              <div class="bgbox"><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://s1.ax1x.com/2023/04/21/p9EwT3j.jpg)" class="imgbox" onclick="changeBg('url(https://lskypro.acozycotage.net/Fomalhaut/img/home_bg.webp)')"></a></div>
+              <div class="bgbox"><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://s1.vika.cn/space/2023/04/21/e42ebc380cfd43dfb1b3bf65efdffaed)" class="imgbox" onclick="changeBg('url(https://lskypro.acozycotage.net/Fomalhaut/img/home_bg.webp)')"></a></div>
               </div>
             </details>
 
@@ -3416,7 +3416,7 @@ function createWinbox() {
 
 <details class="folding-tag" cyan><summary> 查看风景背景 </summary>
               <div class='content'>
-              <div class="bgbox"><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://s1.ax1x.com/2023/04/21/p9EwT3j.jpg)" class="imgbox" onclick="changeBg('url(https://lskypro.acozycotage.net/Fomalhaut/img/fj1.webp)')"></a></div>
+              <div class="bgbox"><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://s1.vika.cn/space/2023/04/21/e42ebc380cfd43dfb1b3bf65efdffaed)" class="imgbox" onclick="changeBg('url(https://lskypro.acozycotage.net/Fomalhaut/img/fj1.webp)')"></a></div>
               </div>
             </details>
 
@@ -3424,7 +3424,7 @@ function createWinbox() {
 
 <details class="folding-tag" cyan><summary> 查看萌宠背景 </summary>
               <div class='content'>
-              <div class="bgbox"><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://s1.ax1x.com/2023/04/21/p9EwT3j.jpg)" class="imgbox" onclick="changeBg('url(https://lskypro.acozycotage.net/Fomalhaut/img/mc1.webp)')"></a></div>
+              <div class="bgbox"><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://s1.vika.cn/space/2023/04/21/e42ebc380cfd43dfb1b3bf65efdffaed)" class="imgbox" onclick="changeBg('url(https://lskypro.acozycotage.net/Fomalhaut/img/mc1.webp)')"></a></div>
               </div>
             </details>
 
